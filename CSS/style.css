@@ -141,15 +141,11 @@ header .carrinho img:hover{
     margin-left: 80px;
     margin-right: 80px;
     justify-content: space-between;
-    border: 1px solid green;
-
 }
 
 .dropdown{
 
     text-align: center;
-    border: 1px solid blue;
-
 }
 
 .dropdown a{
