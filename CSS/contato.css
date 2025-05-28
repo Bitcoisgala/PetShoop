@@ -1,0 +1,196 @@
+body{
+
+    background-color: #fffafa;
+    font-family: "Open Sans";
+    padding: 0;
+    margin: 0;
+
+}
+
+.titulo_contato{
+    color: #ff6600;
+    margin-left: 70px ;
+}
+
+.subtitulo_contato{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.formulario-contato{
+
+    border: 1px solid rgba(128, 128, 128, 0.356) ;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+    height: 480px;
+    width: 70%;
+
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow:  5px 5px 10px rgba(128, 128, 128, 0.226);
+    background-color: white;
+
+}
+
+
+form{
+
+    height: 95%;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+form input:focus{
+
+    border-color: #ff6600;
+
+}
+
+form input{
+
+    font-size: 15px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    padding-left: 10px;
+    outline: none;
+
+}
+
+input::placeholder{
+    color: black;
+}
+
+.campo-nome input{
+
+    width: 90%;
+
+}
+
+.campo-nome .campo{
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.campo-nome{
+
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+.campo-email{
+
+    width: 100%;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.campo-email input{
+
+    width: 95%;
+
+}
+
+.legenda-campo-feedback{
+    margin-left: 15px;
+}
+
+.campo-feedback{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.feedback:focus{
+
+    border-color: #ff6600;
+
+}
+
+.feedback{
+
+    width: 95%;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    border-radius: 10px;
+    height: 185px;
+    font-size: 15px;
+    margin-top: 5px;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    resize: none;
+    outline: none;
+
+}
+
+input::placeholder{
+
+    font-family: "Open sans";
+
+}
+
+.btn_enviar{
+
+    border: none;
+    border-radius: 5px;
+
+    height: 40px;
+    width: 150px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    background-color: #ff6600;
+    color: white;
+
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+
+    cursor: pointer;
+
+}
+
+.outra_opcao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo_tel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600;
+    text-align: center; 
+    width: 100%; 
+    padding: 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    font-weight: normal;
+}

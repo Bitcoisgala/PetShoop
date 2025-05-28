@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#0000FF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport-fit" content="cover">
+    <meta name="description" content="Melhor Petshop do Brasil com os melhores preços">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="https://PetEtec.com/">
+
+
+    <meta property="og:title" content="Pet ETEC">
+    <meta property="og:description" content="Os melhores preços do Brasil">
+    <meta property="og:image" content="https://www.meupetamoroso.com.br/wp-content/uploads/2021/03/petshopperfil.png">
+    <meta property="og:url" content="https://PetEtec.com">
+
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="PetShop, Veterinário, Banho, Tosa">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pet ETEC">
+    <meta name="twitter:description" content="Melhor Pet Shop do Brasil">
+    <meta name="twitter:image" content="https://www.meupetamoroso.com.br/wp-content/uploads/2021/03/petshopperfil.png">
+
+    <meta name="author" content="Henrique da Silva, Gustavo Garcia, Lucas Alves, Marcos Ricardo">
+
+    <title>Criar Conta - Pet ETEC</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+        
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+
+<body>
+    <div class="modal" id="registerModal" style="display: flex;">
+        <div class="modal-content">
+
+            <img src="IMG/seta-esquerda.png" alt="seta" onclick="voltar()" id="bnt-voltar">
+
+            <h2>Criar Conta</h2>
+            <form>
+                <input type="text" id="nome" placeholder="Nome completo" required>
+                <input type="password" id="newPassword" placeholder="Senha" required>
+                <input type="password" id="confirmPassword" placeholder="Confirme sua Senha" required>
+
+                <p> Selecione seu tipo de usuario:</p>
+
+                <div class="tipo_usuario">
+
+                    <div class="campo">
+                        <input type="radio" name="tipouser" id="adm" class="radio_criar">
+                        <label for="adm"> Vendedor </label>
+                    </div>
+
+                    <div class="campo">
+                        <input type="radio" name="tipouser" id="cliente" class="radio_criar">
+                        <label for="cliente"> Cliente </label>
+                    </div>
+
+                </div>
+
+                <button type="submit" onclick="registrar()">Registrar</button>
+            </form>
+            <a href="login.html" class="link">Já tenho uma conta</a>
+        </div>
+    </div>
+
+    <script src="BACKEND/script.js"></script>
+</body>
+
+</html>

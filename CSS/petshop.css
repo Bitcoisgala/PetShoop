@@ -1,0 +1,138 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf3;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(90deg, #ff6f00, #ffa726);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Container de produtos */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Card de produto */
+.product-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    width: 270px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.product-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.product-card h3 {
+    margin-top: 15px;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.product-card p {
+    padding: 0 15px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Botão */
+button {
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #e65c00;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #ccc;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    footer h3 {
+        font-size: 1.2rem;
+    }
+}
